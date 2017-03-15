@@ -39,7 +39,7 @@ const entryTarget = glob.sync('./src/app/*/*.ts')
        path: path.resolve(__dirname, './dist'),
        publicPath: '/',
         filename: '[name].[chunkhash].js'
-     }, 
+     },
      // output: {
      //     path: path.resolve(__dirname, './dist'),
      //     filename: 'app.bundle.js'
@@ -71,7 +71,7 @@ const entryTarget = glob.sync('./src/app/*/*.ts')
             },
              { test: /\.ts$/, loaders: ['awesome-typescript-loader']}
           ]
-        },
+        }, 
 
     //  module: {
     //      loaders: [
