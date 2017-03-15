@@ -1,7 +1,7 @@
 // es6 shim
 import 'core-js';
 // es7 reflect-metadata
-import 'reflect-metadata';
+//import 'reflect-metadata';
 // async lib
 import 'zone.js/dist/zone';
 
